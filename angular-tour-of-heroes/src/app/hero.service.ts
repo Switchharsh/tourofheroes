@@ -24,6 +24,6 @@ getHero(id: number): Observable<Hero>{
     return of(hero);
 }
 private log(message: string){
-    this.messageService.add( )
+    this.messageService.add(`HeroService: ${message}`);
 }
 }
